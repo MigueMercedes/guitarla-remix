@@ -7,7 +7,7 @@ export function meta({data}) {
   console.log(data)
 
   const title = `GuitarLA - ${data.attributes.nombre}`;
-  const description = `Guitarras, venta de guitarras, guitarra ${data.attributes.nombre}`
+  const description = `Guitarras, venta de guitarras, guitarra ${data.attributes.nombre}`;
 
   return [
     {
